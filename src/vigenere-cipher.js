@@ -87,6 +87,10 @@ class VigenereCipheringMachine {
         }
       }
     let modifiedKey = modifiedKeyArr.join('');
+<<<<<<< HEAD
+=======
+    console.log(modifiedKey);
+>>>>>>> 7a21787fd9af08b7a25fb602e22ad5efc5dce68e
     return modifiedKey.toUpperCase();
   }
 }
